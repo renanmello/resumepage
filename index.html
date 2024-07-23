@@ -36,6 +36,18 @@
 				publicKey: "WsRqF07w9EsAdXvox",
 			});
 		})();
+		
+		function alertmsg(){
+			let a = document.createElement('a');
+			a.href='https://movieclient-lyart.vercel.app/';
+
+			if(window.confirm('Please enable security permissions for this link "https://54.198.187.29/api/v1/movies" then update(F5) the site "https://movieclient-lyart.vercel.app/"')){
+				a.click();
+				window.open('https://54.198.187.29/api/v1/movies');
+				
+			}
+			
+		}
 	</script>
 
 
@@ -177,7 +189,7 @@
 						<div class="portfolio-thumb">
 							<img src="images/movies.png" class="img-responsive" alt="portfolio img">
 							<div class="portfolio-overlay">
-								<h2><a href="https://movieclient-lyart.vercel.app/">Click to see the Demo</a></h2>
+								<h2><button  onclick="alertmsg()" href="https://movieclient-lyart.vercel.app/">Click to see the Demo</button></h2>
 								<h4>Movie Db</h4>
 								<h4>Front-end: React<h4>
 								<h4>Banck-end: Java (Spring)</h4>
