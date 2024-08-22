@@ -48,6 +48,10 @@
 			}
 			
 		}
+		function alertmsg2(){
+			window.confirm('This is a free instance that goes idle when not in use. Initial requests may take up to 50 seconds to load. Please refresh the page (F5) after this time.')
+			
+		}
 	</script>
 
 
@@ -189,7 +193,7 @@
 						<div class="portfolio-thumb">
 							<img src="images/movies.png" class="img-responsive" alt="portfolio img">
 							<div class="portfolio-overlay">
-								<h2><a href="https://movieclient-lyart.vercel.app/" target="_blank"><button class="btn-sites">Click to see the Demo</button></a></h2>
+								<h2><a href="https://movieclient-lyart.vercel.app/" target="_blank"><button class="btn-sites" onclick="alertmsg2()">Click to see the Demo</button></a></h2>
 								<h4>Movie Db</h4>
 								<h4>Front-end: React<h4>
 								<h4>Banck-end: Java (Spring)</h4>
